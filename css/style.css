@@ -4,6 +4,8 @@ body {
   color: #333333;
   margin: 0;
   padding: 0;
+  font-size: 18px;
+  line-height: 150%;
 }
 
 header {
@@ -14,7 +16,8 @@ h1 {
   color: #eee;
   font-size: 28px;
   margin: 0px;
-  padding: 20px;
+  margin-bottom: 20px;
+  padding: 20px 0px;
   text-align: center;
 }
 
@@ -25,7 +28,6 @@ h2 {
 .container {
   width: 1024px;
   margin: 0 auto;
-  line-height: 1.5;
 }
 
 #main-bio {
@@ -42,7 +44,9 @@ h2 {
 #bio-image {
   float: left;
   width: 200px;
-  margin: 03px;
+  height: 150px;
+  margin: 3px;
+  margin-right: 20px;
 }
 
 a:link {
@@ -52,3 +56,4 @@ a:link {
 
 a:visited {
   color: #d21034;
+}
